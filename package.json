@@ -1,14 +1,14 @@
 {
   "name": "boilerplate",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Basic boilerplate for starting small JS projects",
+  "main": "bin/app.js",
   "scripts": {
     "build": "webpack",
     "build:prod": "webpack -p",
     "serve": "webpack-dev-server --hot --inline" 
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["boilerplate"],
+  "author": "Bennie Robinson",
+  "license": "MIT"
 }
