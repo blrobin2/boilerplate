@@ -1,4 +1,5 @@
-# Boilerplate
+# Async Boilerplate
+Minimal environment for playing with async functions before they come to the browsers.
 
 ## Synopsis
 Basic boilerplate for starting small JS projects
@@ -10,7 +11,7 @@ Clone down the repo, then run `npm install`. This will pull down all the assets 
 This stuff can be hard to figure out the first time, and everyone tries to make it as difficult and verbose as possible. All I want to do is write some code, try some things out, not necessarily start my new enterprise-level project.
 
 ## Usage
-To make sure things are working, run `npm run serve`, which will start up the dev server. Navigate to localhost on the given port, followed by 'app' (the name of the compiled file). So, for example `localhost:8080/app`. You should see a console log saying "Hello". Make a change to src/index.js, such as changing the console log to say "Hello, World!". Go back to the browser, and you should see the page reload and display your new changes.
+To make sure things are working, run `npm run serve`, which will start up the dev server. Navigate to localhost on the given port, followed by 'app' (the name of the compiled file). So, for example `localhost:8080/app`. You should see a console log saying "Hey". Make a change to src/index.js, such as changing the console log to say "Hello, World!". Go back to the browser, and you should see the page reload and display your new changes.
 
 If you are satisfied with what you have, just run `npm run build`, which will actually make the app.js file in bin. If you want to build for production, just run `npm run build:prod`.
 
@@ -38,4 +39,4 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE. 
+SOFTWARE.
