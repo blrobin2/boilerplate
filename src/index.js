@@ -6,7 +6,7 @@ async function hello() {
 }
 
 async function get_greeting() {
-  wait(500);
+  await wait(500);
   return 'hey';
 }
 
