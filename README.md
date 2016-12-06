@@ -1,21 +1,22 @@
-# Boilerplate
+# CQRS Example
 
 ## Synopsis
-Basic boilerplate for starting small JS projects
+Attempt at implementation of Greg Young's SimpleCQRS in JavaScript
 
 ## Installation
-Clone down the repo, then run `npm install`. This will pull down all the assets you need. Since you're probably going to want to start your own project, run `git init` to initialize a new repo with these files.
+Clone down the repo, then run `npm install`.
 
 ## Motivation
-This stuff can be hard to figure out the first time, and everyone tries to make it as difficult and verbose as possible. All I want to do is write some code, try some things out, not necessarily start my new enterprise-level project.
+I like [CQRS](http://martinfowler.com/bliki/CQRS.html), and I wanted to see if I could implement some of the patterns in JavaScript. [Redux](https://github.com/reactjs/redux) is a more JavaScript-y version of CQRS, but I wanted to try and get as close as possible to what [Greg Young](http://codebetter.com/gregyoung/) wrote, for better or worse.
 
 ## Usage
-To make sure things are working, run `npm run serve`, which will start up the dev server. Navigate to localhost on the given port, followed by 'app' (the name of the compiled file). So, for example `localhost:8080/app`. You should see a console log saying "Hello". Make a change to src/index.js, such as changing the console log to say "Hello, World!". Go back to the browser, and you should see the page reload and display your new changes.
-
-If you are satisfied with what you have, just run `npm run build`, which will actually make the app.js file in bin. If you want to build for production, just run `npm run build:prod`.
+To compile TypeScript, run `npm run build`.
 
 ## Contributors
-If you think you can make this simpler, let me know with a pull request.
+I know very little about TypeScript, so if you have an idea for better typing or implementation details, please fork!
+
+## Prior Art
+[gregoryyoung/m-r](https://github.com/gregoryyoung/m-r) The original version of this, written in C#.
 
 ## Licence
 MIT License

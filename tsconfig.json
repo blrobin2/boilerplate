@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"outDir": "./bin/",
+		"sourceMap": true,
+		"module": "commonjs",
+		"target": "es5"
+	},
+	"types": [
+		"core-js"
+	]
+}
